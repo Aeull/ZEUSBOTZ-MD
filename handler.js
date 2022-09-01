@@ -435,7 +435,7 @@ module.exports = {
                     sPromote: '',
                     sDemote: '',
                     delete: true,
-                    antiLink: false,
+                    antiLink: true,
                     viewonce: false,
                     antiToxic: true,
                 }
@@ -708,7 +708,7 @@ module.exports = {
                         } finally {
                             text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Yah,si Beban Masuk Grup').replace('@subject', groupMetadata.subject).replace('@desc', groupMetadata.desc.toString()) :
                                 (chat.sBye || this.bye || conn.bye || 'Sip, Beban Berkurang 1'))
-                                this.sendHButtonLoc(id, await(await fetch(pp)).buffer(), text, wm, "SC", "github.com/ilmanhdyt/ShiraoriBOT-Md", `MENU`, `.menu`, null)
+                                this.sendHButtonLoc(id, await(await fetch(pp)).buffer(), text, wm, "Group Bot", "https://chat.whatsapp.com/ItwCvXL02hg11U5qNaLSBe", `Menu`, `.menu`, null)
                                 }
                     }
                 }
