@@ -21,7 +21,7 @@ let wktus = moment.tz('Asia/Jakarta').format('ss')
 function pickRandom(list) {
   return list[Math.floor(Math.random() * list.length)]
 }
-global.owner = ['62895327934887','48699515524', '62895328590064'] // Put your number here
+global.owner = ['6285822347348','6285822347348', '6285822347348'] // Put your number here
 global.mods = [] // Want some help?
 global.prems = [] // Premium user has unlimited limit
 global.APIs = { // API Prefix
@@ -65,18 +65,18 @@ global.APIKeys = { // APIKey Here
 
 // Sticker WM
 global.stiker_wait = '🌱Stiker sedang dibuat'
-global.packname = 'AWAKRI DEVICE'
-global.author = `@mhdfakri_`
+global.packname = 'ArullBotz'
+global.author = `Whatshapp Bot`
 
-global.wm = 'AWAKRI DEVICE' 
+global.wm = 'ArullBotz' 
 global.watermark = wm
-global.namabot = 'AWAKRI'
+global.namabot = 'ArullBotz'
 //============= MEDIA BUTTON NYA ============\\\
-global.instagram = 'https://instagram.com/mhdfakri_'
+global.instagram = 'https://instagram.com/sahrulwara_____'
 global.botdate = `❏ ${wktuh} H  ${wktum} M  ${wktus} S\n❏ ${week} ${date}`
-global.media = 'https://telegra.ph/file/ccb2359d3925fd7af58cd.jpg'
-global.github = 'https://github.com/krizynofc'
-global.ppmenu = 'https://telegra.ph/file/d193805fc50e562415f3d.jpg'
+global.media = 'https://telegra.ph/file/938731ae93192bdfe1e44.jpg'
+global.github = 'https://github.com/Warikrr'
+global.ppmenu = 'https://telegra.ph/file/938731ae93192bdfe1e44.jpg'
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=crafts-logo&doScale=true&scaleWidth=500&scaleHeight=500&fontsize=100&fillTextType=0&backgroundColor=%23401620&text='
 global.wait = '⏳ Wait, sedang diproses...'
